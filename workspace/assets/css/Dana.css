@@ -23,3 +23,29 @@
 	display: block;
 	font-size: 120%;
 }
+
+#Dana_Profile_Page_1 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/מדוזה.jpg") !important;
+}
+
+#Dana_Profile_Page_2 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/לדה.jpg") !important;
+}
+
+#Dana_Profile_Page_3 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/פרספונה.jpg") !important;
+}
+
+#Dana_Profile_Page_4 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/אירופה.jpg") !important;
+}
+
+#Dana_Profile_Page_5 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/דנאה.jpg") !important;
+}
+
