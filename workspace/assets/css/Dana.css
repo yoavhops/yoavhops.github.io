@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'AharoniiG_Regular';
+    src: url('Fonts/AharoniiG_Regular.otf');
+}
+
+@font-face {
+    font-family: 'ArbelHagilda_Regular';
+    src: url('Fonts/ArbelHagilda_Regular.otf');
+}
+
+
+#Dana_Buttom_Bar strong {
+	font-family: "AharoniiG_Regular" !important;
+	text-align: center !important;    
+	display: block;
+	font-size: 150%;
+}
+
+#Dana_Buttom_Bar h2
+{
+	font-family: "ArbelHagilda_Regular" !important;
+	text-align: center !important;    
+	display: block;
+	font-size: 120%;
+}
