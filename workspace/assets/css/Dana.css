@@ -8,6 +8,10 @@
     src: url('Fonts/ArbelHagilda_Regular.otf');
 }
 
+.bg-color-white, html body
+{
+	background-color: #ffd2d2;
+}
 
 #Dana_Buttom_Bar strong {
 	font-family: "AharoniiG_Regular" !important;
@@ -23,6 +27,36 @@
 	display: block;
 	font-size: 120%;
 }
+
+
+
+#Dana_Page_1 .jit-image-bg
+{
+	background-image:url("../../../workspace/uploads/Gifs/מדוזה.gif") !important;
+}
+
+#Dana_Page_2 .jit-image-bg
+{
+	background-image:url("../../../workspace/uploads/Gifs/לדה.gif") !important;
+}
+
+#Dana_Page_3 .jit-image-bg
+{
+	background-image:url("../../../workspace/uploads/Gifs/פרספונה.gif") !important;
+}
+
+#Dana_Page_4 .jit-image-bg
+{
+	background-image:url("../../../workspace/uploads/Gifs/אירופה.gif") !important;
+}
+
+#Dana_Page_5 .jit-image-bg
+{
+	background-image:url("../../../workspace/uploads/Gifs/דנאה.gif") !important;
+}
+
+
+
 
 #Dana_Profile_Page_1 .jit-image-bg
 {
@@ -48,4 +82,6 @@
 {
 	content:url("../../../workspace/uploads/profile-picture/דנאה.jpg") !important;
 }
+
+
 
