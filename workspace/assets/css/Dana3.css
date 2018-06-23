@@ -8,6 +8,16 @@
     src: url('Fonts/ArbelHagilda_Regular.otf');
 }
 
+#Dana_Profile_Page figure
+{
+	width: 100% !important;
+}
+
+figure.artist-image
+{
+	background-image:url("../../../workspace/uploads/profile-picture/מדוזה.jpg") !important;
+}
+
 #Dana_Profile_Page_1 .jit-image-bg
 {
 	content:url("../../../workspace/uploads/profile-picture/מדוזה.jpg") !important;
