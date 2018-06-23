@@ -45,6 +45,11 @@ html body
 	background-color: #000000;
 }
 
+#Dana_Left_Bar span
+{
+	color: #15f7b6 !important;
+}
+
 .Dana_Profile_Page div
 {
 	background-color: #ec008c !important;
