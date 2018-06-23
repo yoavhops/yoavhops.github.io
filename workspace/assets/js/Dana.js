@@ -34,6 +34,8 @@ $(function() {
 	});
 
 
+	var targetColor = "#	";
+	var lerpValue = 0;
 
 	function onClassChange(element, newClass) {
 
@@ -51,6 +53,68 @@ $(function() {
 			elem.removeClass("is-selected");
 		}
 
+		if (index == 1)
+		{
+			targetColor = "#000000";
+		}
+		if (index == 2)
+		{
+			targetColor = "#000000";	
+		}
+		if (index == 3)
+		{
+			
+		}
+		if (index == 4)
+		{
+			
+		}
+		if (index == 5)
+		{
+			
+		}
+
+		lerpValue = 0;
+
 	}
 
+	setInterval(Update, 25);
+
+	function Update()
+	{
+    	var currentColor = $('body').css( "background-color" );
+    	currentColor = "#15f7b6";
+    	if (targetColor != undefined)
+    	{
+
+    		if (lerpValue > 1)
+    		{
+    			lerpValue = 1;
+    		}
+
+			var value = lerpColor(currentColor, targetColor, lerpValue);
+			$('body').css( "background-color", value);
+			lerpValue += 0.025;
+    	}
+	}
 });
+
+
+
+
+function lerpColor(a, b, amount) { 
+
+    var ah = parseInt(a.replace(/#/g, ''), 16),
+        ar = ah >> 16, ag = ah >> 8 & 0xff, ab = ah & 0xff,
+        bh = parseInt(b.replace(/#/g, ''), 16),
+        br = bh >> 16, bg = bh >> 8 & 0xff, bb = bh & 0xff,
+        rr = ar + amount * (br - ar),
+        rg = ag + amount * (bg - ag),
+        rb = ab + amount * (bb - ab);
+
+    return '#' + ((1 << 24) + (rr << 16) + (rg << 8) + rb | 0).toString(16).slice(1);
+}
+
+function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}
