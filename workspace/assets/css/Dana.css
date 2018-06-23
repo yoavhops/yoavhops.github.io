@@ -55,6 +55,20 @@ html body
 	width: 95%;
 }
 
+.Dana_about{
+	text-align: right;
+    margin: 15px;
+    color: white;
+    font-family: "ArbelHagilda_Regular";
+    direction: rtl;    
+    line-height: 25px;
+}
+
+.Dana_about.artist-link:before
+{
+	height: 0px;
+}
+
 #Dana_Buttom_Bar strong {
 	font-family: "AharoniiG_Regular" !important;
 	text-align: center !important;    
@@ -83,13 +97,13 @@ html body
 	font-family: "ArbelHagilda_Regular" !important;
 	font-size: 13px !important;
 	font-style : normal;
-	color: #E2BC99  !important;
+	color: white  !important;
 	font-weight: 100;
 }
 
 .Dana_Profile_Page .text-shorter.text-uppercase
 {
-	color: white !important;
+	color: black !important;
 	font-family: "AharoniiG_Regular" !important;
 	font-size: 20px !important;
 	font-weight: 100;
