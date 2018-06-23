@@ -55,13 +55,14 @@ html body
 	width: 95%;
 }
 
-.Dana_about{
+.Dana_about{    
 	text-align: right;
     margin: 15px;
-    color: white;
+    color: black;
     font-family: "ArbelHagilda_Regular";
-    direction: rtl;    
+    direction: rtl;
     line-height: 25px;
+    font-size: 16px;
 }
 
 .Dana_about.artist-link:before
