@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Slider - Template</title>
+    <link rel="stylesheet" href="./csslider.css" />
+    <style>
+        html, body {
+            margin: 0;
+            padding: 100px 0 0 0;
+            font: 400 100% arial, sans-serif;
+            color: white;
+            background: #282828;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="csslider">
+        <input type="radio" name="slides" id="slides_1" checked />
+        <input type="radio" name="slides" id="slides_2" />
+        <input type="radio" name="slides" id="slides_3" />
+        <input type="radio" name="slides" id="slides_4" />
+        <input type="radio" name="slides" id="slides_N" />
+        <ul>
+
+        <!--1-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/מדוזה.jpg"> 
+
+            </li>
+
+        <!--2-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/לדה.jpg"> 
+
+            </li>
+
+        <!--3-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/פרספונה.jpg"> 
+
+            </li>
+
+        <!--4-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/אירופה.jpg"> 
+
+            </li>
+
+        <!--5-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/דנאה.jpg"> 
+
+            </li>
+
+        </ul>
+        <div class="arrows" style="visibility: hidden;">
+            <label for="slides_1"></label>
+            <label for="slides_2"></label>
+            <label for="slides_3"></label>
+            <label for="slides_4"></label>
+            <label for="slides_5"></label>
+        </div>
+        <div class="navigation" style="visibility: hidden;">
+            <div>
+                <label for="slides_1"></label>
+                <label for="slides_2"></label>
+                <label for="slides_3"></label>
+                <label for="slides_4"></label>
+                <label for="slides_5"></label>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script type="text/javascript">
+
+		var prevIndex = 1;
+		
+    	(function() {
+			myFunction(4);
+		})();
+
+
+		function myFunction(index) {
+		    var next = document.getElementById("slides_" + index);
+		    var prev = document.getElementById("slides_" + prevIndex);
+		    var att = document.createAttribute("checked");
+		    next.setAttributeNode(att);
+		    prev.removeAttribute("checked");
+		    prevIndex = index;
+		}
+
+    </script>
+
+</html>

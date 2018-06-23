@@ -18,6 +18,17 @@ figure.artist-image
 	background-image:url("../../../workspace/uploads/profile-picture/מדוזה.jpg") !important;
 }
 
+.padding-bottom-9_16{
+    height: 87vh;
+    width: 129vh;
+    padding-bottom: 0%;
+}
+
+#artist-image-marrging
+{
+	margin-top: 5vh !important;
+}
+
 #Dana_Profile_Page_1 .jit-image-bg
 {
 	content:url("../../../workspace/uploads/profile-picture/מדוזה.jpg") !important;

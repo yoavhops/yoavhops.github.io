@@ -34,7 +34,7 @@ $(function() {
 	});
 
 
-	var targetColor = "#	";
+	var targetColor = "#15f7b6";
 	var lerpValue = 0;
 
 	function onClassChange(element, newClass) {
@@ -55,11 +55,11 @@ $(function() {
 
 		if (index == 1)
 		{
-			targetColor = "#000000";
+			targetColor = "#15f7b6";
 		}
 		if (index == 2)
 		{
-			targetColor = "#000000";	
+			targetColor = "#15f7b6";	
 		}
 		if (index == 3)
 		{
@@ -82,8 +82,9 @@ $(function() {
 
 	function Update()
 	{
+		return;
     	var currentColor = $('body').css( "background-color" );
-    	currentColor = "#15f7b6";
+    	currentColor = "#000000";
     	if (targetColor != undefined)
     	{
 
