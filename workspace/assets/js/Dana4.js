@@ -43,6 +43,36 @@ $(function() {
 			SlideTo(index);
 		}
 	}
+
+	$("#Dana_Profile_Page_1").click(function() {
+		OnProfileClicked(1);
+		event.preventDefault();
+	});
+	$("#Dana_Profile_Page_2").click(function() {
+		OnProfileClicked(2);
+		event.preventDefault();
+	});
+	$("#Dana_Profile_Page_3").click(function() {
+		OnProfileClicked(3);
+		event.preventDefault();
+	});
+	$("#Dana_Profile_Page_4").click(function() {
+		OnProfileClicked(4);
+		event.preventDefault();
+	});
+	$("#Dana_Profile_Page_5").click(function() {
+		OnProfileClicked(5);
+		event.preventDefault();
+	});
+
+
+	var openPageIndex = GetURLParameter('index');
+
+	if (openPageIndex)
+	{
+		OnProfileClicked(openPageIndex);
+	}
+
 });
 
 var SlideToPrevIndex = 1;
@@ -73,4 +103,18 @@ function OnProfileClicked(index)
 	document.getElementById("Dana_Image_5").src = path + "5.jpg";
 
 	$('#Dana_Buttom_1').click();
+}
+
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
 }
