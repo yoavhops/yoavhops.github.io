@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="./workspace/assets/css/mir.min.1.2.0.65.css">
 <link rel="stylesheet" type="text/css" href="./workspace/assets/css/Dana.css">
 <link rel="stylesheet" type="text/css" href="./workspace/assets/css/Dana4.css">
+<link rel="stylesheet" href="./csslider.css" />
 </head>
 
 
@@ -214,7 +215,91 @@
 
 <div class="flickity-slider" style="left: 0px; transform: translateX(0%);"><div id="Dana_Buttom_1" class="home-slider-link flexbox flex-column justify-content-start padding-left-broad width-tera cursor-pointer height-giga js-auto-flickity-cell js-home-slider-link is-selected" data-position="0" style="position: absolute; left: 73.3%;"><div class="block relative text-shorter text-uppercase letter-spacing-widest padding-top-large padding-top-thin-when-touch"><strong>מדוזה</strong><h2>ופוסידון</h2></div></div><div id="Dana_Buttom_2" class="home-slider-link flexbox flex-column justify-content-start padding-left-broad width-tera cursor-pointer height-giga js-auto-flickity-cell js-home-slider-link" data-position="1" style="position: absolute; left: 54.97%;"><div class="block relative text-shorter text-uppercase letter-spacing-widest padding-top-large padding-top-thin-when-touch"><strong>לדה</strong><h2>והברבור</h2></div></div><div id="Dana_Buttom_3"  class="home-slider-link flexbox flex-column justify-content-start padding-left-broad width-tera cursor-pointer height-giga js-auto-flickity-cell js-home-slider-link" data-position="2" style="position: absolute; left: 36.65%;"><div class="block relative text-shorter text-uppercase letter-spacing-widest padding-top-large padding-top-thin-when-touch"><strong>פרספונה</strong><h2>והאדס</h2></div></div><div id="Dana_Buttom_4" class="home-slider-link flexbox flex-column justify-content-start padding-left-broad width-tera cursor-pointer height-giga js-auto-flickity-cell js-home-slider-link" data-position="3" style="position: absolute; left: 18.32%;"><div class="block relative text-shorter text-uppercase letter-spacing-widest padding-top-large padding-top-thin-when-touch"><strong>אירופה</strong><h2>והשור הלבן</h2></div></div><div id="Dana_Buttom_5" class="home-slider-link flexbox flex-column justify-content-start padding-left-broad width-tera cursor-pointer height-giga js-auto-flickity-cell js-home-slider-link" data-position="4" style="position: absolute; left: 0%;"><div class="block relative text-shorter text-uppercase letter-spacing-widest padding-top-large padding-top-thin-when-touch"><strong>דנאה</strong><h2>וגשם הזהב</h2></div></div></div></div></div></div></div><div class="border-box display-none-to-sm flexbox-from-sm flex-column flex-center flex-shrink-0 padding-left-thinner width-largest"><div class="home-slider-bullets-ctn flexbox flex-column flex-center relative js-home-slider-bullets-ctn"><div class="home-slider-bullet target flexbox flex-center square-broad cursor-pointer js-home-slider-bullet" data-position="0"><div class="border-radius-sharp bg-color-grey bg-color-black-on-target-hover transition-bg-color transition-duration-faster square-micro"></div></div><div class="home-slider-bullet target flexbox flex-center square-broad cursor-pointer js-home-slider-bullet" data-position="1"><div class="border-radius-sharp bg-color-grey bg-color-black-on-target-hover transition-bg-color transition-duration-faster square-micro"></div></div><div class="home-slider-bullet target flexbox flex-center square-broad cursor-pointer js-home-slider-bullet" data-position="2"><div class="border-radius-sharp bg-color-grey bg-color-black-on-target-hover transition-bg-color transition-duration-faster square-micro"></div></div><div class="home-slider-bullet target flexbox flex-center square-broad cursor-pointer js-home-slider-bullet" data-position="3"><div class="border-radius-sharp bg-color-grey bg-color-black-on-target-hover transition-bg-color transition-duration-faster square-micro"></div></div><div class="home-slider-bullet target flexbox flex-center square-broad cursor-pointer js-home-slider-bullet" data-position="4"><div class="border-radius-sharp bg-color-grey bg-color-black-on-target-hover transition-bg-color transition-duration-faster square-micro"></div></div><div class="home-slider-bullet-selected border-radius-sharp translate-minus-1_2-2px absolute left-1_2 border-slimmer border-solid border-color-black bg-color-white width-micro top-thinner pointer-events-none js-home-slider-bullet-selected" style="top: 15px; bottom: 125px;"></div></div></div></div>
 
-</div></div><footer></footer></div><div id="bg-transition" class="bg-color-accent fixed fill z-index-max-minus-5 display-none"></div><div id="load-progress" class="z-index-max top left width-0 fixed display-none"></div><div id="block-user-agent" style="display:none;" onclick="this.innerHTML='';"></div><script src="./workspace/assets/js/mir.min.1.2.0.65.js"></script><script>App.pages.create({key: '#page-ui-toolkit',routes: ['/en/ui-toolkit/','/fr/ui-toolkit/']},'defaultPage');App.pages.create({key: '#page-artists-detail',routes: ['/en/artists/detail/*','/fr/artistes/detail/*']},'artists-detail-page');App.pages.create({key: '#page-artists',routes: ['/en/artists/','/fr/artistes/']},'list-page');App.pages.create({key: '#page-releases-detail',routes: ['/en/releases/detail/*','/fr/releases/detail/*']},'default-detail-page');App.pages.create({key: '#page-releases',routes: ['/en/releases/','/fr/releases/']},'list-page');App.pages.create({key: '#page-contact',routes: ['/en/contact/','/fr/contact/']},'defaultPage');App.pages.create({key: '#page-index',routes: ['/en/','/fr/','/']},'index');</script><script>(function(){App.run('#site-pages');})();</script><script src="./workspace/assets/js/Dana.js"></script>
+</div></div><footer></footer></div><div id="bg-transition" class="bg-color-accent fixed fill z-index-max-minus-5 display-none"></div><div id="load-progress" class="z-index-max top left width-0 fixed display-none"></div><div id="block-user-agent" style="display:none;" onclick="this.innerHTML='';"></div>
+
+
+
+
+
+
+
+
+
+<div style="
+    position: fixed;
+    top: 50%;
+    left: 50%;    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+">
+    <div class="csslider">
+        <input type="radio" name="slides" id="slides_1" checked="">
+        <input type="radio" name="slides" id="slides_2">
+        <input type="radio" name="slides" id="slides_3">
+        <input type="radio" name="slides" id="slides_4">
+        <input type="radio" name="slides" id="slides_5">
+        <ul>
+
+        <!--1-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/מדוזה.jpg"> 
+
+            </li>
+
+        <!--2-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/לדה.jpg"> 
+
+            </li>
+
+        <!--3-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/פרספונה.jpg"> 
+
+            </li>
+
+        <!--4-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/אירופה.jpg"> 
+
+            </li>
+
+        <!--5-->
+            <li>
+
+            <img style="width: 100%" src="./workspace/uploads/profile-picture/דנאה.jpg"> 
+
+            </li>
+
+        </ul>
+        <div class="arrows" style="visibility: hidden;">
+            <label for="slides_1"></label>
+            <label for="slides_2"></label>
+            <label for="slides_3"></label>
+            <label for="slides_4"></label>
+            <label for="slides_5"></label>
+        </div>
+        <div class="navigation" style="visibility: hidden;">
+            <div>
+                <label for="slides_1"></label>
+                <label for="slides_2"></label>
+                <label for="slides_3"></label>
+                <label for="slides_4"></label>
+                <label for="slides_5"></label>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="./workspace/assets/js/mir.min.1.2.0.65.js"></script><script>App.pages.create({key: '#page-ui-toolkit',routes: ['/en/ui-toolkit/','/fr/ui-toolkit/']},'defaultPage');App.pages.create({key: '#page-artists-detail',routes: ['/en/artists/detail/*','/fr/artistes/detail/*']},'artists-detail-page');App.pages.create({key: '#page-artists',routes: ['/en/artists/','/fr/artistes/']},'list-page');App.pages.create({key: '#page-releases-detail',routes: ['/en/releases/detail/*','/fr/releases/detail/*']},'default-detail-page');App.pages.create({key: '#page-releases',routes: ['/en/releases/','/fr/releases/']},'list-page');App.pages.create({key: '#page-contact',routes: ['/en/contact/','/fr/contact/']},'defaultPage');App.pages.create({key: '#page-index',routes: ['/en/','/fr/','/']},'index');</script><script>(function(){App.run('#site-pages');})();</script>
+
+<script src="./workspace/assets/js/Dana.js"></script>
+<script src="./workspace/assets/js/Dana4.js"></script>
 
 </body>
 </html>
