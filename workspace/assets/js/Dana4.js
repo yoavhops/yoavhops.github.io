@@ -1,24 +1,6 @@
 $(function() {
 
     console.log( "ready4!" );
-
-	var SlideToPrevIndex = 1;
-
-	function SlideTo(index) {
-
-		if (index == SlideToPrevIndex)
-		{
-			return;
-		}
-
-	    var next = document.getElementById("slides_" + index);
-	    var prev = document.getElementById("slides_" + SlideToPrevIndex);
-	    var att = document.createAttribute("checked");
-	    prev.removeAttribute("checked");
-	    next.setAttributeNode(att);
-	    SlideToPrevIndex = index;
-	}
-
 	var observer = new MutationObserver(function(mutations) {
 	  mutations.forEach(function(mutation) {
 	    if (mutation.attributeName === "class") {
@@ -63,6 +45,23 @@ $(function() {
 	}
 });
 
+var SlideToPrevIndex = 1;
+
+function SlideTo(index) {
+
+	if (index == SlideToPrevIndex)
+	{
+		return;
+	}
+
+    var next = document.getElementById("slides_" + index);
+    var prev = document.getElementById("slides_" + SlideToPrevIndex);
+    var att = document.createAttribute("checked");
+    prev.removeAttribute("checked");
+    next.setAttributeNode(att);
+    SlideToPrevIndex = index;
+}
+
 function OnProfileClicked(index)
 {
 	path = "./workspace/uploads/2ndSite/" + index + "/";
@@ -72,4 +71,6 @@ function OnProfileClicked(index)
 	document.getElementById("Dana_Image_3").src = path + "3.jpg";
 	document.getElementById("Dana_Image_4").src = path + "4.jpg";
 	document.getElementById("Dana_Image_5").src = path + "5.jpg";
+
+	$('#Dana_Buttom_1').click();
 }
