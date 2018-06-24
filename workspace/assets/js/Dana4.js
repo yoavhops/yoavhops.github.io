@@ -60,32 +60,16 @@ $(function() {
 		{
 			SlideTo(index);
 		}
-
-		if (index == 1)
-		{
-
-		}
-
-		if (index == 2)
-		{	
-
-		}
-
-		if (index == 3)
-		{
-			
-		}
-
-		if (index == 4)
-		{
-			
-		}
-
-		if (index == 5)
-		{
-			
-		}
-
 	}
-
 });
+
+function OnProfileClicked(index)
+{
+	path = "./workspace/uploads/2ndSite/" + index + "/";
+
+	document.getElementById("Dana_Image_1").src = path + "1.jpg";
+	document.getElementById("Dana_Image_2").src = path + "2.jpg";
+	document.getElementById("Dana_Image_3").src = path + "3.jpg";
+	document.getElementById("Dana_Image_4").src = path + "4.jpg";
+	document.getElementById("Dana_Image_5").src = path + "5.jpg";
+}

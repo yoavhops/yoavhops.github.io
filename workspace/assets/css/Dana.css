@@ -8,6 +8,12 @@
     src: url('Fonts/ArbelHagilda_Regular.otf');
 }
 
+.padding-vertical-thinnest
+{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
 html body
 {
 	color: white  !important;
