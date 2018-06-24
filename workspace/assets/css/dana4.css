@@ -3,3 +3,7 @@
 #Dana_Buttom_Bar_Margin{
 	margin-top: 83.5vh;
 }
+
+.bg-color-white, html body {
+    background-color: #a71d72;
+}
