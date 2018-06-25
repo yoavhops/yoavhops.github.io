@@ -1,5 +1,14 @@
 $(function() {
 
+
+	$(".Dana_about_Info").click(function(e) {
+		e.preventDefault();
+        var myContentDiv = $(this).closest('.Dana_Profile_Page');
+        myContentDiv = myContentDiv.find('.Dana_MeTos');
+        myContentDiv.click();
+	});
+
+
     console.log( "ready!" );
 
 
