@@ -6,7 +6,6 @@
   display: inline-block;
   text-align: left;
   position: relative;
-  margin-bottom: 22px;
 }
 .csslider > input {
   display: none;
@@ -43,8 +42,8 @@
 }
 .csslider > ul {
   position: relative;
-  width: 120vh;
-  height: 85vh;
+  width: 129vh;
+  height: 88vh;
   z-index: 1;
   font-size: 0;
   line-height: 0;
