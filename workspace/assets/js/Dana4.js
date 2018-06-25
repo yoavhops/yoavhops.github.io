@@ -92,6 +92,7 @@ function SlideTo(index) {
     SlideToPrevIndex = index;
 }
 
+var PrevProfileIndex = 1;
 function OnProfileClicked(index)
 {
 	path = "./workspace/uploads/2ndSite/" + index + "/";
@@ -103,6 +104,11 @@ function OnProfileClicked(index)
 	document.getElementById("Dana_Image_5").src = path + "5.jpg";
 
 	$('#Dana_Buttom_1').click();
+
+    $("#Dana_Profile_Page_" + PrevProfileIndex).removeClass("Dana_Selected_Profile");
+    $("#Dana_Profile_Page_" + index).addClass("Dana_Selected_Profile");
+
+	PrevProfileIndex = index;
 }
 
 function GetURLParameter(sParam)
