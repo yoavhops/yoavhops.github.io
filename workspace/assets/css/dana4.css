@@ -1,11 +1,26 @@
 
 
+#Dana_Buttom_Bar_Pager
+{
+  	width: 120vh;
+  	height: 160px;
+  	touch-action: pan-y;
+  	position:  relative;
+  	left: 44rem;
+}
+
 #Dana_Buttom_Bar_Margin{
 	margin-top: 83.5vh;
 }
 
 .bg-color-white, html body {
     background-color: #000000;
+}
+
+.home-slider-link:before
+{
+	left: 13rem;
+	color: #15f7b6;
 }
 
 .Dana_Selected_Profile
@@ -44,11 +59,16 @@
 .artist-sidebar-inner-ctn::-webkit-scrollbar-thumb {
     border-radius: 4px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #348c73;
+    background-color: #15f7b6cc;
 }
 
 .artist-sidebar-inner-ctn::-webkit-scrollbar
 {
 	width: 8px;
 	background-color: #1a1818;
+}
+
+.header-panel
+{
+	color: #15f7b6;
 }

@@ -8,6 +8,11 @@
     src: url('Fonts/ArbelHagilda_Regular.otf');
 }
 
+.home-slider-link:before
+{
+	left: 13rem;
+}
+
 .padding-vertical-thinnest
 {
     padding-top: 1.3rem;
@@ -27,6 +32,25 @@ html body
 		black = 000000
 	*/
 	background-color: #000000;
+}
+
+.Dana_about
+{
+    position: relative;
+    top: 3px;
+}
+
+.Dana_Mail_Icon
+{
+	font-size:36px;
+	margin-top: 6px;    
+	position: relative;
+    top: 10px;
+}
+
+.Dana_about:hover .Dana_Mail_Icon
+{
+	color: white;
 }
 
 .home-slider-bullet .border-radius-sharp
