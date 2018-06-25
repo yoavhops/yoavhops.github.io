@@ -5,12 +5,20 @@
 }
 
 .bg-color-white, html body {
-    background-color: #ec008c;
+    background-color: #000000;
 }
 
 .Dana_Selected_Profile
 {
-  border: 7px solid #ffffff;
+	color: #15f7b6;
+}
+
+.Dana_Profile_Border
+{
+    width:  100%;
+    height:  100%;
+    position:  absolute;
+    box-shadow: inset 0px 0px 0px 6px #15f7b6;
 }
 
 #Dana_Profile_Page .artist-sidebar-item-name
@@ -22,11 +30,17 @@
 .artist-sidebar-inner-ctn::-webkit-scrollbar-track
 {
 	border-radius: 4px;
-    background-color: #000000;
+    background-color: #1a1818;
 }
 
 .artist-sidebar-inner-ctn::-webkit-scrollbar-thumb {
     border-radius: 4px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #15f7b6;
+    background-color: #348c73;
+}
+
+.artist-sidebar-inner-ctn::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #1a1818;
 }
