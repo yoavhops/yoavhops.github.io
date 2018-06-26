@@ -1,3 +1,13 @@
+
+.Dana_Big_Image
+{
+    position: fixed;
+    top: 50%;
+    right: 43%;
+    transform: translate(50%, -50%);
+    pointer-events: none;
+}
+
 .csslider {
   -moz-perspective: 1300px;
   -ms-perspective: 1300px;
