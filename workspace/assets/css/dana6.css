@@ -1,0 +1,59 @@
+.Dana_Main
+{
+	margin-right: 37%;
+}
+
+.Dana_Inner_Page
+{
+    margin-left: 10%;
+}
+
+.Dana_Text
+{
+	font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    font-family: "ArbelHagilda_Regular" !important;
+    text-align: right;
+    direction: rtl;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    left: 50vw;
+    top: 28vh;
+    width: 30vw;
+}
+
+.Dana_Social_Link
+{
+	position: absolute;
+	left: 50vw;
+    top: 88vh;
+}
+
+.width-1_2-from-sm
+{
+	width: 68% !important
+}
+
+.width-1_2-from-md
+{
+	width: 100% !important
+}
+
+.Dana_Box_1 , a, blockquote, button, h1, h2, h3, h4, h5, h6, li, p
+{
+	/*color: #15f7b6 */
+    font-family: "ArbelHagilda_Regular" !important;
+}
+.Dana_Box_2 , a, blockquote, button, h1, h2, h3, h4, h5, h6, li, p
+{    
+	font-size: 28px;
+    /*line-height: 35px;*/
+    letter-spacing: 5px;
+    font-family: "ArbelHagilda_Regular" !important;
+}
+
+.Dana_Box_2
+{
+	margin-left: 320px;
+}

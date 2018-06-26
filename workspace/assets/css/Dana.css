@@ -78,6 +78,8 @@ html body
 #Dana_Left_Bar span
 {
 	color: #15f7b6 !important;
+    font-family: "ArbelHagilda_Regular";
+    font-size: 14px;
 }
 
 .Dana_Profile_Page div
@@ -220,4 +222,27 @@ html body
 #Dana_Profile_Page_5 .jit-image-bg
 {
 	content:url("../../../workspace/uploads/profile-picture/דנאה.jpg") !important;
+}
+
+#Dana_Profile_Page_6 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/תמר.jpg") !important;
+}
+
+
+#Dana_Profile_Page_7 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/איזיס.jpg") !important;
+}
+
+
+#Dana_Profile_Page_8 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/איננה.jpg") !important;
+}
+
+
+#Dana_Profile_Page_9 .jit-image-bg
+{
+	content:url("../../../workspace/uploads/profile-picture/רינד.jpg") !important;
 }
